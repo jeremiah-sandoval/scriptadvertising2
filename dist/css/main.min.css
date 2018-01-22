@@ -1089,13 +1089,14 @@ select[multiple], select[size] {
   border: 0;
   background-color: #efefef;
 }
-.CategoryLetter{
-  height: 100%;
+.CategoryContent{
+  height: 89%;
 }
 .CategoryLetter{
+  height: 100%;
   padding-right: 0;
   border-right: 1px solid #efefef;
-  display:
+  overflow: scroll;
 }
 .CategoryLetter ul{
   list-style: none;
@@ -1106,6 +1107,33 @@ select[multiple], select[size] {
   padding: 10px;
   text-align: center;
   border-bottom: 1px solid #efefef;
+}
+.CategoryLetter ul li a{
+  color: #1a1a1a;
+  font-weight: 700;
+}
+.CategoryLetter ul li.active a{
+  color: #fff;
+}
+.CategoryLetter ul li.active{
+  background-color: #EA5D60;
+}
+.CategoryItem{
+  overflow: scroll;
+}
+.CategoryItem ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.CategoryItem ul li{
+  padding: 10px 0 0;
+}
+.CategoryItem ul li a{
+  color: #1a1a1a;
+}
+h6.AddItems{
+  border-top: 1px solid #efefef;
 }
 
 @media (min-width: 1200px) {
