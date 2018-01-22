@@ -1096,7 +1096,7 @@ select[multiple], select[size] {
   height: 100%;
   padding-right: 0;
   border-right: 1px solid #efefef;
-  overflow: scroll;
+  overflow-y: auto;
 }
 .CategoryLetter ul{
   list-style: none;
@@ -1119,7 +1119,7 @@ select[multiple], select[size] {
   background-color: #EA5D60;
 }
 .CategoryItem{
-  overflow: scroll;
+  overflow-y: auto;
 }
 .CategoryItem ul{
   padding: 0;
