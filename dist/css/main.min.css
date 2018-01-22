@@ -567,6 +567,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 /*************************** SideBar ***************************************/
 .wrapper {
+  position: relative;
   display: flex;
   align-items: stretch;
   padding: 0px 15px; }
@@ -1074,6 +1075,38 @@ select[multiple], select[size] {
   margin-top: -1px; }
 
 
+#Category{
+   position: absolute;
+   top:0;
+   right:0;
+   height: 100%;
+   width: 370px;
+   background-color: #fff;
+}
+#CategorySelect{
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: #efefef;
+}
+.CategoryLetter{
+  height: 100%;
+}
+.CategoryLetter{
+  padding-right: 0;
+  border-right: 1px solid #efefef;
+  display:
+}
+.CategoryLetter ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.CategoryLetter ul li{
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+}
 
 @media (min-width: 1200px) {
   .container {
