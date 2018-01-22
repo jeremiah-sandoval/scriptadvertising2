@@ -505,7 +505,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     .notification .dropdown-menu .dropdown-item h6, .notification .dropdown-menu .dropdown-item small {
       color: #fff; }
     .notification .dropdown-menu .dropdown-item:hover, .notification .dropdown-menu .dropdown-item:focus, .notification .dropdown-menu .dropdown-item:active {
-      background-color: #466ef7;
+      background-color: #F4474F;
       color: #fff; }
 
 .notification .dropdown-menu.show {
