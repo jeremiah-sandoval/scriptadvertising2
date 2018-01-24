@@ -1105,6 +1105,7 @@ select[multiple], select[size] {
 }
 .CategoryLetter ul li{
   padding: 2px 6px;
+  line-height: 26px;
   text-align: center;
   border-bottom: 1px solid #efefef;
 }
