@@ -228,8 +228,8 @@ h5 {
   line-height: 2rem; }
 
 .btn-sm {
-  padding: 0rem 1.5rem;
-  line-height: 2.5rem; }
+  padding: 5px 10px;
+  line-height: 24px; }
 
 .btn-default {
   padding: 0rem 2rem;
@@ -710,7 +710,7 @@ footer{
 
 /*======================== Main Content  Css ===============================*/
 #content {
-  padding: 0px 0 0 20px;
+  padding: 0;
   min-height: 100vh;
   transition: all 0.3s;
   width: 100%; }
@@ -1194,11 +1194,15 @@ table{
   .container {
     max-width: 1280px; }
   #content {
-    width: calc(100% - 400px); }
+    width: calc(100% - 370px); }
     #content.active {
       width: 100%; } }
 
 @media (max-width: 1199px) {
+  #Category{
+    position: relative;
+    width: 100%;
+  }
   .timeline-point:after, .timeline-point:before, .timeline:after, .timeline:before {
     display: none; }
   .scrollerchat .in, .scrollerchat .out {
